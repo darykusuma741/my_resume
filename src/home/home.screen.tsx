@@ -6,7 +6,7 @@ export function HomeScreen() {
   return (
     <>
       <motion.div className='page home' initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }} transition={{ duration: 1 }}>
-        <div className='min-h-screen bg-primary flex items-center justify-center px-10'>
+        <div className='min-h-screen bg-primary flex items-center justify-center md:px-10 px-6'>
           <HomeHeader />
 
           <motion.div className='page home' initial={{ opacity: 0, x: 200 }} animate={{ opacity: 1, x: 1 }} exit={{ opacity: 0 }} transition={{ duration: 1 }}>
