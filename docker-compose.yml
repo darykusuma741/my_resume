@@ -1,0 +1,23 @@
+version: '3.8'
+
+services:
+  my_resume: 
+    build: 
+      context: .
+      dockerfile: Dockerfile
+    container_name: 'my_resume'
+    hostname: my_resume
+    volumes:
+      - .:/app
+      - node_modules:/app/node_modules
+    ports:
+      - 8085:8085
+    stdin_open: true
+    command: npm run preview
+    networks:
+      - net_web
+volumes:
+  node_modules:
+networks:
+  net_web:
+    external: true
