@@ -20,12 +20,12 @@ export function HomeHeader() {
             back-end, managing servers, databases, and application logic efficiently.
           </p>
           <div className='flex mt-2'>
-            <button className='border mt-4 border-white text-white bg-transparent py-2 px-4 rounded-md hover:bg-white hover:text-black transition-all flex items-center'>
-              <ArrowDownTrayIcon className='w-5 mr-2' />
+            <button className='md:text-lg text-sm border mt-4 border-white text-white bg-transparent py-2 px-4 rounded-md hover:bg-white hover:text-black transition-all flex items-center'>
+              <ArrowDownTrayIcon className='md:w-5 w-4 mr-2' />
               Download CV
             </button>
-            <Link to={'/about'} className='border mt-4 border-secondary hover:border-white flex items-center text-white bg-secondary py-2 px-4 rounded-md hover:bg-white hover:text-black transition-all ml-3'>
-              <UserCircleIcon className='w-5 mr-2' />
+            <Link to={'/about'} className='md:text-lg text-sm border mt-4 border-secondary hover:border-white flex items-center text-white bg-secondary py-2 px-4 rounded-md hover:bg-white hover:text-black transition-all ml-3'>
+              <UserCircleIcon className='md:w-5 w-4 mr-2' />
               About Me
             </Link>
           </div>
