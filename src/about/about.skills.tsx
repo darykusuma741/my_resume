@@ -8,7 +8,7 @@ export function AboutSkills() {
         <div className='flex justify-center mb-9 text-center items-center'>
           <GiSkills className='text-4xl lg:text-6xl text-white mr-4' />
           <div>
-            <h1 className='text-white text-3xl lg:text-5xl font-bold font-PalanquinDark'>Skills</h1>
+            <h1 className='text-white text-xl lg:text-5xl font-bold font-PalanquinDark'>Skills</h1>
           </div>
         </div>
         <div className='grid lg:grid-cols-3 gap-4'>

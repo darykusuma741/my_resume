@@ -4,9 +4,11 @@ export function AboutEducation() {
   return (
     <>
       <div className='w-full bg-primary p-10 z-50'>
-        <div className='flex lg:justify-start justify-center'>
+        <div className='flex lg:justify-start justify-center mb-9 text-center items-center'>
           <BiSolidGraduation className='text-5xl lg:text-6xl text-white mr-4' />
-          <h1 className='text-white text-4xl lg:text-6xl font-bold font-PalanquinDark mb-4'>Education</h1>
+          <div>
+            <h1 className='text-white text-xl lg:text-5xl font-bold font-PalanquinDark'>Education</h1>
+          </div>
         </div>
         <div className='mt-5'>
           <div className='rounded-lg font-PalanquinDark w-full backdrop-blur-sm bg-white/10 text-white p-6'>

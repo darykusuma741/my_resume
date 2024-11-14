@@ -7,7 +7,7 @@ export function AboutWorkExperience() {
         <div className='flex justify-center mb-9 text-center items-center'>
           <MdWork className='text-4xl lg:text-6xl text-white mr-4' />
           <div>
-            <h1 className='text-white text-3xl lg:text-5xl font-bold font-PalanquinDark'>
+            <h1 className='text-white text-xl lg:text-5xl font-bold font-PalanquinDark'>
               Work <span className='text-secondary'>Experience</span>
             </h1>
           </div>
